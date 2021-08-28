@@ -1,0 +1,63 @@
+.flex-blackjack-row-1 {
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+.flex-blackjack-row-1 div {
+    border: 1px solid white;
+    /* display: flex; */
+    height: 25rem;
+    padding: 1.2rem;
+    overflow: hidden;
+    flex: 1;
+    text-align: center;
+    
+}
+
+.flex-blackjack-row-1{
+    height: 22rem
+}
+
+.showcase-content {
+    height: 50%;
+    
+}
+
+.login-heading {
+    text-align: center;
+    margin-bottom: 0.9rem;
+    padding : 0.5rem;
+    font-weight: bold;
+    color: white;
+    font-size: 1.4rem;
+    border: 2px solid white;
+}
+
+
+
+
+.end-line {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.show-text {
+    font-size: 2.4rem;
+}
+.subtext {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+.flex-container-login {
+    display: block;
+}
+
+.container-1 {
+    padding-top: 7rem;
+     width: 89%;
+
+}
