@@ -21,7 +21,7 @@ const hitSound = new Audio('static/sounds/swish.m4a')
 const winSound = new Audio('static/sounds/cash.mp3')
 const lossSound = new Audio('static/sounds/aww.mp3')
 const bustSound = new Audio('static/sounds/bust.mp3')
-// const drewSound = new Audio('static/sounds/drew.mp3')
+const drewSound = new Audio('static/sounds/drew.mp3')
 
 
 //functions
@@ -81,7 +81,7 @@ function updateScore(card,activePlayer) {
 function showScore(activePlayer) {
 
     if (activePlayer['score']>21) {
-        // bustSound.play();
+        bustSound.play();
         document.querySelector(activePlayer['scoreSpan']).textContent = 'BUST!';
         document.querySelector(activePlayer['scoreSpan']).style.color = 'red';
     }
