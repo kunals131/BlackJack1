@@ -1,0 +1,188 @@
+:root {
+    --prime-dark : #05386b;
+    --primary-color : #379683;
+    --secondary-color : #5cdb95;
+    --light-color : #bee4af;
+    --ligher-color : #edf5e1;
+}
+
+.main-page {
+    background : url('https://images.unsplash.com/photo-1607637508975-bf0090d7a0b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
+    height: 100vh
+
+}
+
+#navd {
+    z-index: 999;
+}
+
+.container-1 {
+    padding-top: 7rem;
+     width: 75%;
+     margin: 0 auto;
+     text-align: center;
+     color: white;
+     /* border: 1px solid white; */
+     border-top: none;
+     border-right: none;
+     border-left: none;
+
+}
+
+.main-content {
+    position: absolute;
+    top:0px;
+    height: 109.6%;
+    left:0;
+    bottom:0;
+    right: 0    ;
+    background-color: rgba(0,0,0,0.7);   
+     /* //red green blue alpha alpha is transparency */
+}
+
+
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid white;
+    padding: 10px ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.flex-blackjack-row-2 div button {
+    margin: 0.5rem 0.7rem;
+
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid white;
+
+}
+
+table,th,td {
+    padding: 0.3rem ;
+    border: 1px white solid;
+}
+
+
+
+
+.flex-blackjack-row-1 {
+    background : url('https://images.freeimages.com/images/large-previews/4dc/free-casino-table-cloth-texture-1637741.jpg') center center/cover;
+}
+
+
+
+.flex-blackjack-row-1 div {
+    /* border: 1px solid white; */
+    /* display: flex; */
+    height: 350px;
+    padding: 1.2rem;
+    overflow: hidden;
+    flex: 1;
+    text-align: center;
+    
+}
+
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* //LoginPage */
+
+#login-page {
+    height: 100vh;
+}
+
+.flex-container-login {
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+    width: 100%;
+
+}
+
+.showcase-content {
+    background: url('../img/login-pageimage.png') center center/cover;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.showcase-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+
+}
+
+.show-text {
+    font-size: 5rem;
+}
+.subtext {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.login-form {
+    flex: 1;
+    background : url('../img/bg3.jpg') no-repeat center center/cover;
+}
+
+.form-content {
+    /* background-color: #f4f4f4; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+.login-heading {
+    text-align: center;
+    margin-bottom: 0.9rem;
+    padding : 0.5rem;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+
+
+}
+
+.d1form {
+    padding: 2rem;
+    height: 70%;
+    width: 100%;
+}
+.d1form label {
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.btn-2 {
+    /* margin-top: 1rem; */
+   margin-top: 2rem;
+   
+}
+
+.end-line {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.end-line a{
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+}
